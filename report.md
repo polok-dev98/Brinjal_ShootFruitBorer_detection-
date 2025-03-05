@@ -10,8 +10,8 @@ The dataset was obtained from Roboflow and consists of annotated images featurin
 
 ### Data Preprocessing
 - Image normalization and resizing (640x640 pixels)
-- Data augmentation techniques such as flipping, rotation, and brightness adjustments
-- Conversion of annotations into YOLO-compatible format
+- Data augmentation techniques such as rotation, and cropping adjustments
+- Conversion of annotations into YOLO11-compatible format
 
 ### Model Training Pipeline
 1. **Load Dependencies**: Required libraries (e.g., `ultralytics`, `roboflow`, `opencv-python`) were installed.
